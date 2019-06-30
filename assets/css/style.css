@@ -1,0 +1,377 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background-color: rgb(45, 45, 45);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia"; 
+    background-color: #ffffff; 
+}
+
+.header {
+    background-color: #000000;
+    padding: 61px 0 54px 0;
+    border-top: 5px solid #40aed7;
+}
+
+.container {
+    width: 960px; 
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.head-menu-item-upper {
+    font-size: 19px;
+    color:  #ffffff;
+}
+
+.head-menu-item-lower {
+    font-size: 11px;
+    color:  #979797;
+}
+.head-menu_wright {
+    margin-left: auto;
+}
+
+.head-menu-item:hover {
+    background: #40aed7;
+    padding: 10px;
+    border-radius: 30px;  
+}
+
+.head-menu-item {
+    text-decoration: none;
+    font-size: 10px;
+    color:  #ffffff;
+    margin-left: 42px;
+}
+
+.title {
+    font-size: 124px;
+    margin-top: 60px;
+    margin-bottom: 60px;  
+}
+
+.speakers    {
+    height: 306px;
+    display: flex;
+    justify-content: space-between;   
+} 
+
+.speakers-info-1 {
+    height: 306px;
+    text-align: center;
+    width: 225px;
+    border: 1px solid #40aed7;   
+}
+
+.speakers-info-img {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+
+h3 {
+   font-size: 23px;
+   padding-bottom: 24px;   
+}
+
+.speakers-info-text {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #979797;
+    width: 159px;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+.speakers-info-1:hover {
+    background: #40aed7;   
+}
+
+.speakers-info-1:hover img {
+    filter: brightness(0) invert(1);   
+}
+
+.speakers-info-1:hover h3,
+.speakers-info-1:hover p{
+    color: white;   
+}
+
+.title-ifo {
+    font-size: 124px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color:  #d3d3d3;  
+}
+
+.speakers-foto-info {
+    height: 446px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.speakers-foto {
+    height: 385px;
+    width: 225px;
+}
+
+.speakers-foto-size {
+    height: 225px;
+    width: 225px;
+    background: #333333;
+}
+
+.foto-size {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 45%;          
+}
+
+h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.speakers-foto-text {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+.speakers-foto-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    color:  #40aed7;
+    
+}
+
+.speakers-contact {
+    background-color: #303030;
+    height: 390px;  
+}
+
+.speakers-contact-info {
+    display: flex;
+    justify-content: space-between; 
+}
+.speakers-contact-info-blog {
+    width: 225px;
+    padding-top: 40px;
+}
+
+.title-blog {
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 36px;
+}
+
+.title-Post {
+    font-size: 13px;
+    color: #979797;
+    padding-bottom: 17px;
+}
+
+.contact-info-blog-name {
+    padding-bottom: 12px;
+}
+.name-color {
+    font-size: 10px;
+    color: #3fadd7;
+}
+
+.name-link {
+    font-size: 10px;
+    color: #666666;
+}
+
+.contact-info-blog-date {
+    font-size: 10px;
+    color: #979797;
+    padding-bottom: 14px;
+}
+
+.contact-info-blog-text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #979797;
+    padding-bottom: 19px;
+}
+
+.speakers-contact-info-blog-link {
+    text-decoration: none;
+    font-size: 13px;
+    color:  #40aed7;
+}
+
+.speakers-contact-info-link {
+    width: 225px;
+    padding-top: 40px;
+}
+
+.speakers-contact-info-link-link {
+    text-decoration: none;
+    font-size: 13px;
+    color:  #40aed7;
+    text-align: left;
+    display: flex;
+	flex-direction: column;
+	align-items: baseline;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #979797;  
+}
+
+.speakers-contact-Latest-Tweets {
+    width: 225px;
+    padding-top: 40px;
+}
+
+.speakers-contact-Latest-Tweets-name {
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 23px;
+    color: #979797;
+    
+}
+.name-color-Latest-Tweets {
+    color: #3fadd7;
+    
+}
+
+.speakers-contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-top: 40px;
+}
+
+
+textarea {
+	display: block;
+	width: 100%;
+	min-height: 80px;
+	background-color: rgb(40, 40, 40); 
+	font-size: 15px;
+	font-family: "Georgia";
+	color: rgb(135, 135, 135);
+	line-height: 1.375;
+	text-align: left;
+	border: none;
+	outline: none;
+	resize: none;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 100%;
+	min-height: 36px; 
+	background-color: rgb(40, 40, 40); 
+	font-size: 15px;
+	font-family: "Georgia";
+	color: rgb(135, 135, 135);
+	line-height: 1.375;
+	text-align: left;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.submit {
+	width: 125px;
+	height: 45px;
+	color: rgb(135, 135, 135);
+	font-size: 18px;
+    font-family: "Georgia";
+    background-color: rgb(40, 40, 40);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(32, 32, 32);
+}
+
+.submit:hover {
+    color: #ffffff;
+    background: #40aed7;
+    border-radius: 10px;
+}
+
+footer {
+	background-color: #202020;
+	color: rgb(155, 155, 155);
+}
+
+footer .container { 
+	padding-top: 23px;
+    padding-bottom: 23px;
+	font-size: 13px;
+}
+
+.lower-text {
+    display: flex;
+    justify-content: space-between;
+}
+
